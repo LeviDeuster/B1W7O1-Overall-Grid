@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html{
+    height: 100%;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: white;
+    font-face: 'Lato';
+    color: white;
+    height: 100%;
+}
+
+.site{
+    width: 1100px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.header{
+    width: 1100px;
+    height: 115px;
+
+}
+
+.bannerbgdiv{
+    width: 1100px;
+    height: 445px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.bannerbg{
+    position: absolute;
+    width: 1100px;
+    height: 445px;
+    margin: 0 auto;
+    z-index: -2;
+}
+
+.banner{
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: -1;
+}
+
+p{
+    font-size: 14px;
+    margin-left: 67.5%;
+    line-height: 20px;
+    padding: 5px;
+}
+
+h1{
+    font-size: 26px;
+    margin-left: 67.5%;
+    padding-top: 20px;
+    line-height: 30px;
+}
+h2, h3, h4, h5, h6{
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+.background{
+    position:absolute;
+    margin: 0 auto;
+    z-index: -2;
+    height: 115px;
+    width: 1100px;
+}
+
+.wrapper{
+    width: 1100px;
+    margin-top: 30%;
+    margin: 0 auto;
+    display: flex;
+    color: black;
+}
+
+.image1{
+    float: left;
+}
+
+.image2{
+    margin: 0 auto;
+}
+
+image3{
+    float: right;
+}
+
+.wrapper p{
+    margin: 0%;
+}
+
+.footer{
+    width: 1100px;
+    margin: 0 auto;
+    z-index: 0;
+    position: fixed;
+}
+
+.footerbg{
+    position: absolute;
+    width: 1100px;
+    height: 50px;
+    z-index: -2;
+    margin: 0 auto;
+}
+
+.footer p{
+    text-align: center;
+    margin: 0%;
+}
